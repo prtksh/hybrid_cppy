@@ -1,0 +1,17 @@
+{
+  "mnist_like": {
+    "samples": 1000,
+    "image_shape": [
+      28,
+      28
+    ],
+    "num_classes": 10,
+    "description": "Synthetic MNIST-like data"
+  },
+  "binary_data": {
+    "samples": 1000,
+    "feature_dim": 100,
+    "num_classes": 2,
+    "description": "Synthetic binary classification data"
+  }
+}
