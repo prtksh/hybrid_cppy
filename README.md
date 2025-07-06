@@ -1,8 +1,5 @@
 # Hybrid C++/Python Neural Network Inference Engine
 
-## output
-![image](https://github.com/user-attachments/assets/d9f4855b-4565-4ab8-86af-2c1743835f7f)
-
 ## prerequisites
 
 - **C++17** compatible compiler (GCC 7+, Clang 5+, MSVC 2017+)
@@ -36,7 +33,6 @@ chmod +x build.sh run.sh setup.sh
 
 ## configuration
 
-### Build Configuration
 The project uses CMake with the following default settings:
 - **C++ Standard**: C++17
 - **Build Type**: Release (with -O3 optimization)
@@ -94,6 +90,10 @@ make
 # Run tests
 ./hybrid_inference
 ```
+
+## output
+![image](https://github.com/user-attachments/assets/d9f4855b-4565-4ab8-86af-2c1743835f7f)
+
 
 ## License
 
